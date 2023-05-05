@@ -12,7 +12,9 @@ p {
 /* formatação de imagens com legendas */
 
 figure.foto-legenda {
-
-
-
+    border: 8px solid #a2ebe5;
+}
+figure.foto-legenda img {
+    width: 100%;
+    beight: 100;
 }
