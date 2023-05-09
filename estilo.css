@@ -70,5 +70,9 @@ nav#menu h1 {
 nav#menu a {
 color: #0e0d0d00;
 text-decoration: none;
+}
 
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
