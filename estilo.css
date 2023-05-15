@@ -127,4 +127,7 @@ section#corpo {
     width: 600px;
 }
 
-aside#lateral {}
+aside#lateral {
+    display: block;
+    width: 400px; 
+}
