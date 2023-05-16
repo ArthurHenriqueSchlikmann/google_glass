@@ -148,4 +148,11 @@ footer#rodape p {
 
 /*Formatando a tabela*/
 
-table
+table#tabela-s {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+}
+
+table#tabela-s td {
+    border: 1px solid #606060;
+}
