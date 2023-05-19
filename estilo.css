@@ -171,3 +171,9 @@ table#tabela-s td.ce {
 table#tabela-s td.cd {
     background-color: #cecece;
 }
+
+table#tabela-s caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
