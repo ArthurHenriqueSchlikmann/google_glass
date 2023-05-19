@@ -161,3 +161,13 @@ table#tabela-s td {
     text-align: right;
     vertical-align: middle;
 }
+table#tabela-s td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabela-s td.cd {
+    background-color: #cecece;
+}
