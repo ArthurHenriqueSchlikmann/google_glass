@@ -177,3 +177,11 @@ table#tabela-s caption {
     font-size: 13pt;
     font-weight: bolder;
 }
+
+table#tabela-s caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
