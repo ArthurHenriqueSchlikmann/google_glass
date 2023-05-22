@@ -111,7 +111,7 @@ nav#menu h1 {
 }
 
 nav#menu a {
-color: #0e0d0d00;
+color: #000000;
 text-decoration: none;
 }
 
@@ -185,3 +185,7 @@ table#tabela-s caption span {
     font-size: 8pt;
     margin-top: 10px;
 }
+
+    /*Formatando o artigo*/
+
+    article#noticia-principal
