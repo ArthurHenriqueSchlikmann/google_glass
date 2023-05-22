@@ -144,7 +144,7 @@ aside#lateral {
     display: block;
     width: 350px;
     float: right;
-    margin-right: 15px; 
+    margin-bottom: 150px; 
 }
 
 footer#rodape {
@@ -238,7 +238,7 @@ table#tabela-s caption span {
 
     aside#lateral h2 {
         background-color: #606060;
-        font-size: 15pt;
+        font-size: 13pt;
         color: #ffffff;
         padding-left: 10pt;
     }
