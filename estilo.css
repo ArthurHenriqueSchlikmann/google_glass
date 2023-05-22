@@ -203,7 +203,9 @@ table#tabela-s caption span {
     }
     
     header#cabecalho-artigo h2 {
-
+        font-size: 13pt;
+        color: #cecece;
+        background-color: #ffffff;
     }
 
     header#cabecalho-artigo h3 {
