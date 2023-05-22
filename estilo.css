@@ -144,7 +144,9 @@ aside#lateral {
     display: block;
     width: 350px;
     float: right;
-    margin-bottom: 150px; 
+    margin-bottom: 150px;
+    background-color: #dddddd;
+    padding: 5px; 
 }
 
 footer#rodape {
