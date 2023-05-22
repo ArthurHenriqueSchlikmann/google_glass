@@ -31,7 +31,7 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-    font-family: 'fontelogo', sans-serif;
+    font-family: "fontelogo", sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -194,4 +194,18 @@ table#tabela-s caption span {
         background-color: #dddddd;
         padding: 5px 0px 5px 10px;
         margin: 10px 0px 10px 0px;
+    }
+
+    header#cabecalho-artigo h1 {
+        font-family: "fontelogo";
+        font-size: 20pt;
+        color: #606060;
+    }
+    
+    header#cabecalho-artigo h2 {
+
+    }
+
+    header#cabecalho-artigo h3 {
+
     }
