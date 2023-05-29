@@ -7,11 +7,7 @@
 	<meta name="msvalidate.01" content="AE235ACEF8689BEECA098B61A308BBD7" />
 	<link rel= "stylesheet" href="estilo.css"/>
 </head>
-<script>
-	function mudaFoto (foto) {
-		document.getElementById("icone").src = foto;
-	}
-</script>
+<script language="javascript" src="funcoes.js"></script>	
 <body>
 <div id="interface">
 	<header id="cabecalho">
@@ -26,10 +22,10 @@
 	<h1>Menu Principal</h1>
 	<ul type="circle">
 		<li onmousemove="mudaFoto('home.png')" onmouseout="mudaFoto('glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
-		<li><a href="specs.html">Especificações</a></li>
-		<li><a href="fotos.html">Fotos</a></li>
-		<li><a href="multimidia.html">Multimídia</a></li>
-		<li><a href="fale-conosco.html">Fale conosco</a></li>
+		<li onmousemove="mudaFoto('especificacoes.png')" onmouseout="mudaFoto('glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
+		<li onmousemove="mudaFoto('fotos.png')" onmouseout="glass-oculos-preto-peq.png"><a href="fotos.html">Fotos</a></li>
+		<li onmousemove="mudaFoto('multimidia.png')" onmouseout="mudaFoto('glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
+		<li onmousemove="mudaFoto('contato.png')" onmouseout="glass-oculos-preto-peq.png"><a href="fale-conosco.html">Fale conosco</a></li>
 	</ul>
 	</nav>
 	</header>
