@@ -7,6 +7,14 @@
 	<meta name="msvalidate.01" content="AE235ACEF8689BEECA098B61A308BBD7" />
 	<link rel= "stylesheet" href="estilo.css"/>
     <link rel="stylesheet" href="form.css"/>
+    <script>
+        function calc_total() {
+            var tot;
+            var qtd = parseInt(document.getElementById('cQtd').value);
+            tot = qtd * 1500;
+            document.getElementById('cTot').value = tot;
+        }
+    </script>
 </head>
 <script language="javascript" src="funcoes.js"></script>	
 <body>
@@ -40,7 +48,7 @@
 <h3 class="direita">Atualizado em 23/Abril/2013</h3>
 </hgroup>
 	</header>
-<form method="post" id="fcontato" action="mailto:arthursh@outlook.com.br">Formulário de Contato
+<form method="post" id="fcontato" action="mailto:arthursh@outlook.com.br" oninput="calc_total();">Formulário de Contato
 por Gustavo Guanabara
 Atualizado em 01/Maio/2013
 
@@ -89,13 +97,18 @@ Atualizado em 01/Maio/2013
 
 <fieldset id="pedido">
 <legend>Quero um Google Glass</legend>
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+    <p><input type="checkbox" name="tPed" id="cPed"/>
+    <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+    <p>Cor:
+        <input type="color" name="tCor" id="cCor" value="#00000ff"/>
+    </p>
+    <p><label for="cQtd">Quantidade:</label><input type="number" name="tQua" id="cQtd" min="0" max="5" value="0"/></p>
+    <p>Preço Total: R$
+        <input type="text" name="tTot" id="cTot" placeholder="Valor total a pagar" readonly/>
+    </p>
 </fieldset>
 
-[BOTÃO ENVIAR]
+<input type="image" name="tEnviar" src="botao-enviar.png"/>
 </form>
 <footer id="rodape">
     <h2>Copyright 2013 - by Gustavo Guanabara&copy;</h2><br>
